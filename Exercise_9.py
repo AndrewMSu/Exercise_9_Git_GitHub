@@ -1,3 +1,6 @@
 """ A simple program that prints out hello if you give a name """
-name = input("A Name: ")
-print(f"Hello {name}")
+def Hello(name):
+    print(f"Hello {name}")
+
+def Goodbye(name):
+    print(f"Goodbye {name}")
